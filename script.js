@@ -57,5 +57,5 @@ for (let index = 9; index > 0; index--) {
 
 const zerobutt = document.createElement('button');
 container.appendChild(zerobutt);
-zerobutt.classList.add('numButton');
+zerobutt.classList.add('zeroButton');
 zerobutt.textContent = 0;
