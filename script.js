@@ -46,6 +46,7 @@ console.log(operate(1,3,'+'));
 const contnum = document.querySelector("#contNums");
 // the #cointainer is thelling the querySelector that I am looking for something with id="container"
 const contLeft= document.querySelector("#contLeft");
+const contZero = document.querySelector('#zeroButt');
 
 
 for (let index = 9; index > 0; index--) {
@@ -55,7 +56,7 @@ for (let index = 9; index > 0; index--) {
     numbutt.textContent = index;
 }
 
-// const zerobutt = document.createElement('button');
-// container.appendChild(zerobutt);
-// zerobutt.classList.add('numButton');
-// zerobutt.textContent = 0;
+const zerobutt = document.createElement('button');
+contZero.appendChild(zerobutt);
+zerobutt.classList.add('zeroButton');
+zerobutt.textContent = 0;
